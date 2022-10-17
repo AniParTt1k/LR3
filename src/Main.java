@@ -10,5 +10,8 @@ public class Main {
     d1 = Math.random() * 100;
     d2 = ((Math.random() * (99 - 1)+1));
     System.out.println("l="+l+"\n"+"d1="+d1+"\n"+"d2="+d2+"\n");
+    //tsak3
+    double y=Math.sin(d1)*Math.cos(d2)-Math.atan(d1)/Math.atan(d2);
+    System.out.println("y="+y);
     }
 }
